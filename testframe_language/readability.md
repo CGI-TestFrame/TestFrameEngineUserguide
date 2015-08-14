@@ -25,5 +25,6 @@ The following cluster demonstrates the continue token.
 | 1  | check names	| John    | Sue     | &Cont |
 | 2	 | &Cont	    | Betty	  | Steve	| &Cont |
 | 3	 | &Cont	    | Angela  |         |       |
+
 	
-Note that this test line has six arguments—the first being the action word itself—and the argument with index number 4 (the third parameter of the action word) contains the value Betty.
+Note that this test line has six arguments - the first being the action word itself - and the argument with index number 4 (the third parameter of the action word) contains the value Betty.
