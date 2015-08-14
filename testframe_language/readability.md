@@ -14,17 +14,17 @@ Comment lines can contain descriptions of the action word arguments. The Engine 
 
 ### Splitting test lines
 
-TFL offers the possibility to split a test line over several cluster lines. To do this, the continue token must be used. The continue token can be set to any value by adding it to the ini file containing the Engines settings - to the key ContText in the section SYSTEM. The default value for the continue token, however, is &Cont.
+TFL offers the possibility to split a test line over several cluster lines. To do this, the continue token must be used. The continue token can be set to any value by adding it to the ini file containing the Engines settings - to the key *ContText* in the section *SYSTEM*. The default value for the continue token, however, is **&Cont**.
 
 The continue token must be placed in the argument following the last one of each broken-off cluster line and in the first argument of each continued cluster line. 
 
 **Example** The following cluster demonstrates the continue token.
 	
-| 1	 | 2            | 3	      | 4       | 5     |
-| -- | --           | --      | --      | --    |
-| 1  | check names	| John    | Sue     | &Cont |
-| 2	 | &Cont	    | Betty	  | Steve	| &Cont |
-| 3	 | &Cont	    | Angela  | ...     | ...   |
+| 	 |   A              |   B	  |   C     |   D       |
+| -- | --               | --      | --      | --        |
+| 1  | *check names*	| John    | Sue     | **&Cont** |
+| 2	 | **&Cont**	    | Betty	  | Steve	| **&Cont** |
+| 3	 | **&Cont**	    | Angela  | ...     | ...       |
 
 	
-Note that this test line has six arguments - the first being the action word itself - and the argument with index number 4 (the third parameter of the action word) contains the value Betty.
+Note that this test line has six arguments - the first being the action word itself - and the argument with index number 4 (the third parameter of the action word) contains the value *Betty*.
