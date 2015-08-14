@@ -7,5 +7,5 @@
 * [TestFrame Language - An overview](testframe_language/README.md)
    * [Introduction](testframe_language/introduction.md)
    * [Basic TFL features](testframe_language/basics.md)
-   * 	Improving cluster readability
+   * [Improving cluster readability](testframe_language/readability.md)
 
