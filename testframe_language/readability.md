@@ -14,12 +14,11 @@ Comment lines can contain descriptions of the action word arguments. The Engine 
 
 ### Splitting test lines
 
-TFL offers the possibility to split a test line over several cluster lines. To do this, the continue token must be used. The continue token can be set to any value by adding it to the ini file containing the Engine’s settings - to the key ContText in the section SYSTEM. The default value for the continue token, however, is &Cont.
+TFL offers the possibility to split a test line over several cluster lines. To do this, the continue token must be used. The continue token can be set to any value by adding it to the ini file containing the Engines settings - to the key ContText in the section SYSTEM. The default value for the continue token, however, is &Cont.
 
 The continue token must be placed in the argument following the last one of each broken-off cluster line and in the first argument of each continued cluster line. 
 
-Example 2.1
-The following cluster demonstrates the continue token.
+**Example** The following cluster demonstrates the continue token.
 	
 | 1	 | 2            | 3	      | 4       | 5     |
 | -- | --           | --      | --      | --    |
