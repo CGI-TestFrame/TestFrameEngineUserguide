@@ -10,10 +10,11 @@ TFL offers the possibility to add comment lines to a cluster. For comment lines 
 
 ### Argument descriptions
 
-Comment lines can contain descriptions of the action word arguments. The Engine offers functionality to store and retrieve these argument descriptions. It should be noted that this functionality is limited. Since the argument descriptions are not explicitely registered to a specific action word, determining them is a matter of interpretation for the Engine. To avoid misinterpretation, the comment line containing the desired argument descriptions should be the last comment line before the line(s) whose corresponding action word function(s) call these descriptions.
+Comment lines can contain descriptions of the action word arguments. The Engine offers functionality to store and retrieve these argument descriptions. It should be noted that this functionality is limited. Since the argument descriptions are not explicitly registered to a specific action word, determining them is a matter of interpretation for the Engine. To avoid misinterpretation, the comment line containing the desired argument descriptions should be the last comment line before the line(s) whose corresponding action word function(s) call these descriptions.
 
-2.3.4	Splitting test lines
-TFL offers the possibility to split a test line over several cluster lines. To do this, the continue token must be used. The continue token can be set to any value by adding it to the ini file containing the Engine’s settings—to the key ContText in the section SYSTEM. The default value for the continue token, however, is &Cont.
+### Splitting test lines
+
+TFL offers the possibility to split a test line over several cluster lines. To do this, the continue token must be used. The continue token can be set to any value by adding it to the ini file containing the Engine’s settings - to the key ContText in the section SYSTEM. The default value for the continue token, however, is &Cont.
 
 The continue token must be placed in the argument following the last one of each broken-off cluster line and in the first argument of each continued cluster line. 
 
