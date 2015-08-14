@@ -20,8 +20,8 @@ The continue token must be placed in the argument following the last one of each
 Example 2.1
 The following cluster demonstrates the continue token.
 	
-|	1	| 2  | 	3	|  4  |  5  |
-| -- | -- | -- | -- | -- |
+| 1	 | 2            | 3	      | 4       | 5     |
+| -- | --           | --      | --      | --    |
 | 1  | check names	| John    | Sue     | &Cont |
 | 2	 | &Cont	    | Betty	  | Steve	| &Cont |
 | 3	 | &Cont	    | Angela  |         |       |
