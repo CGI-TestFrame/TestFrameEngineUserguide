@@ -7,7 +7,7 @@ Welcome to the TestFrame Engine, CGI’s tool for processing automated software 
 
 This guide describes how to use the TestFrame Engine to specify, automate, and process your automated software tests.
 
-- [[Introduction]] - an introduction to TestFrame and its automated test environments.
-- [Overview](testframe_language_overview.md) - an overview of the TestFrame Language (TFL).
+- [Introduction](introduction/README.md) - an introduction to TestFrame and its automated test environments.
+- [Overview](testframe_language/README.md) - an overview of the TestFrame Language (TFL).
 
 
